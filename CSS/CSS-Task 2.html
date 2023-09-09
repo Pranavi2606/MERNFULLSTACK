@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #7fd9f7;
+          }
+          
+          li a {
+            display: block;
+            color: #040ca4;
+            padding: 8px 16px;
+            text-decoration: none;
+          }
+          
+          li a.active {
+            background-color: #ffbd06;
+            color: white;
+          }     
+        .topnav {
+            overflow: hidden;
+          background-color: rgb(231, 228, 228);
+        }
+        
+        .topnav a {
+          float: left;
+          color: blue;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 15px;
+        }
+        
+        .topnav a.active {
+          background-color: #7d7e7d;
+          color: white;
+        }
+        .tg {  
+            float: left;  
+              border-right: 1px solid blue;  
+          }
+        table {
+            border-collapse: collapse;
+          }
+        </style>
+</head>
+<body>
+    <h3>Vertical Navigation Bar</h3>
+    <table border="2px" cellpadding="5">
+    <tr><td><ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#java">Java</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#bootstrap">Bootstrap</a></li>
+      </ul></td></tr>
+    </table>
+      <br>
+    <h3>Horizontal Navigation Bar</h3>
+    <table border="2px" cellpadding="5">
+    <tr><td>
+    <div class="topnav">
+        <a class="active tg" href="#home">Home</a>
+        <a class="tg" href="#java">Java</a>
+        <a class="tg" href="#HTML">HTML</a>
+        <a class="tg" href="#css">CSS</a>
+        <a></a>
+    </div></td></tr>
+    </table>
+</body>
+</html>

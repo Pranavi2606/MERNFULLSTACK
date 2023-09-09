@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center"><font color="blue">Registration form</font></h1>
+    <table bordercolor="black" border="1px" align="center" cellspacing="0" cellpadding="5">
+        <form action="./new.html">
+            <tr>
+                <td>
+                    <label for="fn">First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="fn" size="64"/><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ln">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="ln" size="64"/><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd">Password</label>
+                </td>
+                <td>
+                    <input type="password" name="pwd" size="64"/><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rpwd">Re-enter Password</label>
+                </td>
+                <td>
+                    <input type="password" name="rpwd" size="64"/><br />
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <label for="gen">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="g1" name="gen" value="Male"/>
+                    <label for="g1">Male</label>
+                    <br/>
+                </td>
+                <tr>
+                    <td>
+                    <input type="radio" id="g2" name="gen" value="Female"/>
+                    <label for="g2">Female</label><br>
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input type="text" name="age" size="64"/><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phno">Phone Number</label>
+                </td>
+                <td>
+                    <input type="text" name="phno" size="64"/><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="addr">Address</label>
+                </td>
+                <td>
+                    <textarea id="addr" name="addr" rows="5" cols="60">
+                        
+                    </textarea><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="st">State</label>
+                </td>
+                <td>
+                    <input type="text" name="st" size="64"/><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ct">Country</label>
+                </td>
+                <td>
+                    <select>
+                        <option>Choose your country</option>
+                        <option>India</option>
+                        <option>Japan</option>
+                    </select>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lk">Languages Known</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="lk" name="lk" value="Eng">
+                    <label for="lk">English</label>
+                    <input type="checkbox" id="lk1" name="lk" value="Kan">
+                    <label for="lk">Kannada</label>
+                    <input type="checkbox" id="lk2" name="lk" value="Hin">
+                    <label for="lk">Hindi</label>
+                    <input type="checkbox" id="lk3" name="lk" value="Tel">
+                    <label for="lk">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="checkbox" checked>Hereby I declare all the given details are true
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    Log in to <a href="http://www.ethnus.com">Ethnus</a> website
+                </td>
+            </tr>
+            <table align="center">
+                <tr><td colspan="2">
+                    <input type="button" value="Register"/>
+            </td></tr>
+            </table>
+        </form>
+    </table>
+</body>
+</html>
